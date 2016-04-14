@@ -28,11 +28,6 @@ theme = "hugo-strata-theme"
 		]
 
 
-	[params.about]
-		title = "Ernie and Ursula are getting married."
-		content = "Welcome to our wedding website where you can find information about the event."
-
-
 	[params.portfolio]
 		title = "Where"
 
