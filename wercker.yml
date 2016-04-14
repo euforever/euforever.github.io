@@ -31,4 +31,4 @@ deploy:
     - install-packages:
         packages: git ssh-client
     - leipert/git-push@0.7.6:
-        gh_oath: $GIT_TOKEN
+        gh_oauth: $GIT_TOKEN
