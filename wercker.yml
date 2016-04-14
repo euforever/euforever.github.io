@@ -32,7 +32,7 @@ deploy:
     - script:
         code: |
           env
-    - lukevivier/gh-pages@0.2.3:
+    - hijonathan/gh-pages@0.2.3
         token: $GIT_TOKEN
         domain: euforever.github.io
         basedir: public
