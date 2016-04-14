@@ -30,10 +30,5 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - script:
-        code: |
-          env
-    - hijonathan/gh-pages@0.2.3:
-        token: $GIT_TOKEN
-        domain: euforever.com
-        basedir: .
+    - leipert/git-push@0.7.6:
+        gh_oath: $GIT_TOKEN
