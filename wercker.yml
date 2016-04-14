@@ -24,7 +24,8 @@ build:
         name: echo
         code: |
           echo "hello world!"
-    - arjen/hugo-build@1.8.4
+    - arjen/hugo-build@1.8.4:
+        flags: --destination .
 deploy:
   steps:
     - install-packages:
@@ -34,5 +35,5 @@ deploy:
           env
     - hijonathan/gh-pages@0.2.3:
         token: $GIT_TOKEN
-        domain: euforever.github.io
-        basedir: public
+        domain: euforever.com
+        basedir: .
