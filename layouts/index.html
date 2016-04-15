@@ -1,0 +1,16 @@
+{{ partial "head" . }}
+	<body id="top">
+		{{ partial "header" . }}
+
+		{{ "<!-- Main -->" | safeHTML }}
+		<div id="main">
+			{{ partial "about" . }}
+			{{ partial "location" . }}
+			{{ partial "lodging" . }}
+			{{ partial "schedule" . }}
+			{{ partial "logistics" . }}
+		</div>
+
+		{{ partial "footer" . }}
+	</body>
+</html>

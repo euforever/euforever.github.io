@@ -14,10 +14,8 @@ theme = "hugo-strata-theme"
 
 
 	[params.sidebar]
-		# Replace the avatar with a picture of your own under static/images
-		avatar = "000000-0.png"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**August 13, 2016**<br>Zion National Park<br>[Springdale, UT](https://www.google.com/maps/place/Springdale,+UT/data=!4m2!3m1!1s0x80ca8d360b511ef1:0xd9b264a5aeb7087a?sa=X&ved=0ahUKEwjcp_3v3YvMAhVFET4KHSZWBpgQ8gEIfzAO)"
+		bio = "poop**August 13, 2016**<br>Zion National Park<br>[Springdale, UT](https://www.google.com/maps/place/Springdale,+UT/data=!4m2!3m1!1s0x80ca8d360b511ef1:0xd9b264a5aeb7087a?sa=X&ved=0ahUKEwjcp_3v3YvMAhVFET4KHSZWBpgQ8gEIfzAO)"
 		# The icons will be shown if you enter your username
 		twitter = ""
 		github = ""
