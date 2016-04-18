@@ -25,7 +25,7 @@ build:
         code: |
           echo "hello world!"
     - arjen/hugo-build@1.8.4:
-        flags: --destination .
+        flags: --destination . --theme hugo-strata-theme
 deploy:
   steps:
     - install-packages:
