@@ -1590,9 +1590,12 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: white !important;
+			color: #49bf9d !important;
 			text-decoration: none;
 		}
+    header a:hover {
+			color: white !important;
+    }
 
 	strong, b {
 		color: #787878;
