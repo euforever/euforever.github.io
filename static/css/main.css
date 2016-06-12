@@ -2,7 +2,7 @@
 @import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
 #header ul li a {
-  color: white;
+  color: black;
 }
 
 /*
@@ -1590,7 +1590,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: white !important;
 			text-decoration: none;
 		}
 
@@ -2485,11 +2485,11 @@
 	}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: black;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: black;
 		}
 
 		#header h1 {
